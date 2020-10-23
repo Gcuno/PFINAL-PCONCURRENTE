@@ -1,0 +1,137 @@
+.productos-recomendados{
+	overflow:hidden;
+        
+}
+
+h2.titulo {
+  color:#e7305b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.producto-imagen-wrapper{
+	border:1px solid #F7F7F5;
+	overflow: hidden;
+	margin-bottom:30px;
+}
+
+.productos-solo {
+  position: relative;
+}
+
+.new, .sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.productoinfo h2{
+	color:#e7305b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+.producto-overlay h2{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+
+.productoinfo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #696763;
+}
+
+.productoinfo img{
+  width: 100%;
+}
+
+.productoinfo{
+ position:relative;
+}
+
+.producto-overlay {
+  background:#e7305b;
+  top: 0;
+  display: none;
+  height: 0;
+  position: absolute;
+  transition: height 500ms ease 0s;
+  width: 100%;
+  display: block;
+  opacity:12;
+}
+
+.imgdentro{
+     width: 250px;
+    height: 200px;
+   
+}
+
+
+.productos-solo:hover .producto-overlay {
+  display:block;
+  height:100%;
+}
+
+
+.producto-overlay .contenido-overlay {
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.producto-overlay .añadir-al-carrito {
+  background:#fff;
+  border: 0 none;
+  border-radius: 0;
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.producto-overlay .añadir-al-carrito:hover {
+  background:#fff;
+  color: #FE980F;
+}
+
+
+.producto-overlay p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.escoger {
+  border-top: 1px solid #F7F7F0;
+}
+
+.escoger ul li a {
+  color: #e2979c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.escoger ul li a i{
+	margin-right:5px;
+}
+
+.escoger ul li a:hover{
+	background:none;
+	color:#e7305b;
+}
